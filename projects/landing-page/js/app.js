@@ -37,12 +37,13 @@ function buildNavBar (secList)
   {
     console.log(secList);
     secList.forEach((item, i) => {
-  //    let li = document.createElement("li");
-    //  navBarULElem.append (li);
-      //li.append ("Section1   ");
+      let li = document.createElement("li");
+      let sectionIdName = item.;
+      navBarULElem.append (li);
+
+      li.append (sectionIdName);
+
     });
-
-
   }
 }
 /**

@@ -49,6 +49,9 @@ p {
 main {
     margin: 10vh 1em 10vh;
 }
+li {
+    margin: 1em;
+}
 
 .main-hero {
     min-height: 40vh;
